@@ -2,7 +2,14 @@
 
 ## Executive Summary
 
-This PRD outlines the development of an AI-powered predictive maintenance system that leverages Large Language Models (LLMs) to predict maintenance needs for heavy-duty vehicle fleets and provide natural language querying capabilities for fleet owners. This assumes that the company is using GCP, hence the referances to GCP services
+This PRD outlines the development of an AI-powered predictive maintenance system that leverages Large Language Models (LLMs) to predict maintenance needs for heavy-duty vehicle fleets and provide natural language querying capabilities for fleet owners. 
+
+Assumptions 
+- This assumes that the company is using GCP, hence the referances to GCP services
+- The company uses GCP for all its needs.  The owners and their vehicle information, The Vehicle, make model, age, maintenance and inspection history are in GCP Big Query .
+- Owner Fleet sizes range from 10 to 500 Heavy Duty vehicles.
+- Company provides Owners access to various dashboards and BI reports via their website. The compnay also has android and IOS apps for owners, drivers
+
 
 ## Problem Statement
 
